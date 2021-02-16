@@ -1,5 +1,5 @@
 // toggle the hamburder menu 90deg on click of the icon with a class of .fa-bars
-document.querySelector('.fa-bars').addEventListener('click', (event) =>{
+document.querySelector('.fa-bars').addEventListener('click', (event)=>{
     event.currentTarget.classList.toggle('active');
 });
 
@@ -29,6 +29,7 @@ document.querySelector('.fa-bars').addEventListener('click', (event) =>{
 // navButton.addEventListener('click', menuClick);
 
 
-document.querySelector('.blogAside').addEventListener('click', (event) =>{
+// make .blogAside menu an on-click toggle element
+document.querySelector('.blogAside').addEventListener('click', (event)=>{
     event.currentTarget.classList.toggle('active');
 });
