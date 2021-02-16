@@ -40,6 +40,15 @@ nav li {
 
 }
 
+// styling for JS hamburger menu icon
+
+.fa-bars {
+    transition: all ease-in-out 0.5s;
+    &.active {
+        transform: rotate(90deg);
+    }
+}
+
 // styling for mobile menu
 
 label[for="toggle"] {

@@ -371,6 +371,16 @@ nav li a:hover, nav li a:active {
   color: #86E0F9;
 }
 
+.fa-bars {
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.fa-bars.active {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
 label[for="toggle"] {
   font-size: 3rem;
 }
