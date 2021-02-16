@@ -11,11 +11,10 @@
     left: -86%;
     top: 5%;
     transition: 0.3s ease-in;
-}
-
-.blogAside:active {
-    left: 0;
-    top: 5%;
+    &.active {
+        left: 0;
+        top: 5%;
+    }
 }
 
 .asideImg {

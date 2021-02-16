@@ -377,8 +377,8 @@ nav li a:hover, nav li a:active {
 }
 
 .fa-bars.active {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
 
 label[for="toggle"] {
@@ -744,7 +744,7 @@ legend {
   transition: 0.3s ease-in;
 }
 
-.blogAside:active {
+.blogAside.active {
   left: 0;
   top: 5%;
 }

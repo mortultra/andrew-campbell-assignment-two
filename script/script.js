@@ -27,3 +27,8 @@ document.querySelector('.fa-bars').addEventListener('click', (event) =>{
 // }
 
 // navButton.addEventListener('click', menuClick);
+
+
+document.querySelector('.blogAside').addEventListener('click', (event) =>{
+    event.currentTarget.classList.toggle('active');
+});
